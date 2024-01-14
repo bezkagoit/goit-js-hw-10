@@ -20,6 +20,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 } */
+* {
+  box-sizing: border-box;
+}
 
 .timer {
   display: flex;
@@ -48,4 +51,8 @@ input {
 
   margin-left: 8px;
   margin-bottom: 24px;
+}
+
+.form {
+  width: 360px;
 }
